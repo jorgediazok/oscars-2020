@@ -6,7 +6,7 @@ const mejorPelicula = [
   'Joker',
   'Little Women',
   'Marriage Story',
-  1917,
+  '1917',
   'Once Upon a Time in Hollywood',
   'Parasite'
 ];
@@ -72,15 +72,15 @@ const mejorActrizReparto = [
 ];
 
 const mejorFotografia = [
-  '1917 (Roger Deakins)',
+  '1917',
 
-  'The Irishman (Rodrigo Prieto)',
+  'The Irishman',
 
-  'Joker (Lawrence Sher)',
+  'Joker',
 
-  'The Lighthouse (Jarin Blaschke)',
+  'The Lighthouse',
 
-  'Once Upon a Time in Hollywood (Robert Richardson)'
+  'Once Upon a Time in Hollywood'
 ];
 
 const peliculaExtranjera = [
@@ -95,7 +95,7 @@ const peliculaExtranjera = [
   'Les Miserables (Francia)'
 ];
 
-const animacion = [
+const animation = [
   'How to Train Your Dragon: The Hidden World',
 
   'I Lost My Body',
@@ -107,13 +107,124 @@ const animacion = [
   'Toy Story 4'
 ];
 
+const animationShort = [
+  'Dcera (Daughter)',
+  'Hair Love',
+  'Kitbull',
+  'Memorable',
+  'Sister'
+];
+
+const guionAdaptado = [
+  'The Irishman',
+  'Joker',
+  'Little Women',
+  'The Two Popes',
+  'Jojo Rabbit'
+];
+
+const guion = [
+  'Marriage Story',
+  'Once Upon a Time in Hollywood',
+  'Parasite',
+  'Knives Out',
+  '1917'
+];
+
+const cancionOriginal = [
+  'I am standing with You',
+  'Into the unknown',
+  'Stand Up',
+  '(I am gonna)Love me again',
+  'I cant let you throw yourself'
+];
+
+const originalScore = [
+  '1917',
+  'Joker',
+  'Little Women',
+  'Marriage Story',
+  'Starwars: The Rise of Skywalker'
+];
+
+const mejorDocumental = [
+  'American Factory',
+  'The edge of democracy',
+  'Honeyland',
+  'For Sama',
+  'The Cave'
+];
+
+const documentalCorto = [
+  'In the abscense',
+  'Live overtakes me',
+  'St Louis Superman',
+  'Walk Run Cha-Cha',
+  'Learning to Skateboard in a Warzone'
+];
+
+const maquillaje = [
+  'Joker',
+  'Bombshell',
+  'Judy',
+  '1917',
+  'Maleficent: Mistress or Evil'
+];
+
+const productionDesign = [
+  'Parasite',
+  '1917',
+  'The Irishman',
+  'Jojo Rabbit',
+  'Once upon a time in Hollywood'
+];
+
+const edicion = [
+  'The Irishman',
+  'Parasite',
+  'Joker',
+  'Jojo Rabbit',
+  'Ford v Ferrari'
+];
+
+const edicionSonido = [
+  '1917',
+  'Joker',
+  'Ford v Ferrari',
+  'Star Wars: The Rise of Skywalker',
+  'Once upon a time in Hollywood'
+];
+
+const mezclaSonido = [
+  '1917',
+  'Joker',
+  'Ford v Ferrari',
+  'Once upon a time in Hollywood',
+  'Ad Astra'
+];
+
+const visualEffects = [
+  'Avengers: Endgame',
+  'The Lion King',
+  '1917',
+  'The Irishman',
+  'Star Wars: The Rise of Skywalker'
+];
+
+const actionShortfilm = [
+  'Brotherhood',
+  'Nefta Football Club',
+  'The Neighbors Window',
+  'Saria',
+  'A sister'
+];
 //VOTACIÓN
 
 const resultadosVotacion = [
   {
     Leandro: [
       mejorPelicula[3],
-      animacion[2],
+      animation[2],
       peliculaExtranjera[3],
       mejorFotografia[1],
       mejorActor[2],
@@ -126,7 +237,7 @@ const resultadosVotacion = [
   {
     Cristian: [
       mejorPelicula[3],
-      animacion[2],
+      animation[2],
       peliculaExtranjera[3],
       mejorFotografia[1],
       mejorActor[2],

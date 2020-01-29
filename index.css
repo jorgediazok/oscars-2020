@@ -1,0 +1,12 @@
+.container {
+  background-color: black;
+}
+
+.card {
+  height: 400px;
+}
+
+.row-1 {
+  background-color: red;
+  display: block;
+}
