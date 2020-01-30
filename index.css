@@ -4,7 +4,9 @@
 }
 
 body {
+  background-image: url(https://cnnespanol2.files.wordpress.com/2019/02/190214204859-longobardi-oscar-sacheri-full-169.jpg?quality=100&strip=info);
   font-family: 'Raleway', sans-serif;
+  background-size: cover;
   font-size: 14px;
   font-weight: 400;
   color: #777;
