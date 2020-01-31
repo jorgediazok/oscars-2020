@@ -4,9 +4,7 @@
 }
 
 body {
-  background-image: url(https://cnnespanol2.files.wordpress.com/2019/02/190214204859-longobardi-oscar-sacheri-full-169.jpg?quality=100&strip=info);
   font-family: 'Raleway', sans-serif;
-  background-size: cover;
   font-size: 14px;
   font-weight: 400;
   color: #777;
@@ -29,11 +27,16 @@ h3 {
 }
 
 #header .card {
+  height: 350px;
   border-radius: 0;
   box-shadow: 5px 5px 15px #e74c4c;
   transition: all 0.2s ease-in;
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
+}
+
+#header .card-body {
+  padding: 20px;
 }
 
 #header .card:hover {

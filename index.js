@@ -139,7 +139,7 @@ const cancionOriginal = [
   'I cant let you throw yourself'
 ];
 
-const originalScore = [
+const bandaSonora = [
   '1917',
   'Joker',
   'Little Women',
