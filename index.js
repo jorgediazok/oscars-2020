@@ -115,20 +115,20 @@ const animationShort = [
   'Sister'
 ];
 
-const guionAdaptado = [
-  'The Irishman',
-  'Joker',
-  'Little Women',
-  'The Two Popes',
-  'Jojo Rabbit'
-];
-
 const guion = [
   'Marriage Story',
   'Once Upon a Time in Hollywood',
   'Parasite',
   'Knives Out',
   '1917'
+];
+
+const guionAdaptado = [
+  'The Irishman',
+  'Joker',
+  'Little Women',
+  'The Two Popes',
+  'Jojo Rabbit'
 ];
 
 const cancionOriginal = [
