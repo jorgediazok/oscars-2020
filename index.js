@@ -218,38 +218,21 @@ const actionShortfilm = [
   'Saria',
   'A sister'
 ];
-//VOTACIÓN
-
-const resultadosVotacion = [
-  {
-    Leandro: [
-      mejorPelicula[3],
-      animation[2],
-      peliculaExtranjera[3],
-      mejorFotografia[1],
-      mejorActor[2],
-      mejorActorReparto[1],
-      mejorActriz[1],
-      mejorActrizReparto[3],
-      mejorDirector[1]
-    ]
-  },
-  {
-    Cristian: [
-      mejorPelicula[3],
-      animation[2],
-      peliculaExtranjera[3],
-      mejorFotografia[1],
-      mejorActor[2],
-      mejorActorReparto[1],
-      mejorActriz[1],
-      mejorActrizReparto[3],
-      mejorDirector[1]
-    ]
-  }
-];
 
 //ENVIAR DATOS/YO LOS OBTENGO COMO ADMIN
+
+const myForm = document.getElementById('formulario');
+myForm.addEventListener('submit', event => {
+  event.preventDefault();
+  const formData = new FormData(myForm);
+  const resultados = {
+    mejorPelicula: formData.getAll('mejorPelicula')[0],
+    mejorDirector: formData.getAll('mejorDirector')[0]
+  };
+  setTimeout(() => {
+    document.getElementById('formulario').innerHTML = '<p>prueba</p>';
+  }, 2000);
+});
 
 //INVENTAR RESULTADOS QUIEN GANO
 
