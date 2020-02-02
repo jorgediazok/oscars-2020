@@ -50,3 +50,10 @@ h3 {
 #header .card:hover h3 {
   color: white;
 }
+
+.table {
+  margin: auto;
+  width: 50% !important;
+  margin-top: 50px;
+  text-align: center;
+}

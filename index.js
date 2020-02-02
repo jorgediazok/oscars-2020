@@ -256,7 +256,111 @@ myForm.addEventListener('submit', event => {
     document.getElementById('header').innerHTML = '';
     document.getElementById(
       'header'
-    ).innerHTML = `Buenísimo, ${resultados.enviarData} acá te dejo tus elegidos para que los imprimas y chequees cómo te fue el 9 de febrero. Suerte!`;
+    ).innerHTML = `Buenísimo ${resultados.enviarData} ,acá te dejo tus elegidos para que los imprimas y chequees cómo te fue el 9 de febrero. Suerte! 
+    <br/>
+    <br/>
+    <table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">Categoría</th>
+      <th scope="col">Ganador/a</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Mejor Película</td>
+      <td>${resultados.mejorPelicula}</td>
+    </tr>
+    <tr>
+      <td>Mejor Director</td>
+      <td>${resultados.mejorDirector}</td>
+    </tr>
+    <tr>
+      <td>Mejor Actriz</td>
+      <td>${resultados.mejorActriz}</td>
+    </tr>
+    <tr>
+      <td>Mejor Actor</td>
+      <td>${resultados.mejorActor}</td>
+    </tr>
+    <tr>
+      <td>Actor Secundario</td>
+      <td>${resultados.mejorActorReparto}</td>
+    </tr>
+    <tr>
+      <td>Actríz Secundaria</td>
+      <td>${resultados.mejorActrizReparto}</td>
+    </tr>
+    <tr>
+      <td>Mejor Fotografía</td>
+      <td>${resultados.mejorFotografia}</td>
+    </tr>
+    <tr>
+      <td>Película Extranjera</td>
+      <td>${resultados.peliculaExtranjera}</td>
+    </tr>
+    <tr>
+      <td>Película Animada</td>
+      <td>${resultados.animation}</td>
+    </tr>
+    <tr>
+      <td>Corto Animado</td>
+      <td>${resultados.animationShort}</td>
+    </tr>
+    <tr>
+      <td>Mejor Guión</td>
+      <td>${resultados.guion}</td>
+    </tr>
+    <tr>
+      <td>Guión Adaptado</td>
+      <td>${resultados.guionAdaptado}</td>
+    </tr>
+    <tr>
+      <td>Canción Original</td>
+      <td>${resultados.cancionOriginal}</td>
+    </tr>
+    <tr>
+      <td>Banda Sonora</td>
+      <td>${resultados.bandaSonora}</td>
+    </tr>
+    <tr>
+      <td>Documental</td>
+      <td>${resultados.mejorDocumental}</td>
+    </tr>
+    <tr>
+      <td>Documental Corto</td>
+      <td>${resultados.documentalCorto}</td>
+    </tr>
+    <tr>
+      <td>Maquillaje</td>
+      <td>${resultados.maquillaje}</td>
+    </tr>
+    <tr>
+      <td>Diseño de Producción</td>
+      <td>${resultados.productionDesign}</td>
+    </tr>
+    <tr>
+      <td>Edición/Montaje</td>
+      <td>${resultados.edicion}</td>
+    </tr>
+    <tr>
+      <td>Edición de Sonido</td>
+      <td>${resultados.edicionSonido}</td>
+    </tr>
+    <tr>
+      <td>Mezcla de Sonido</td>
+      <td>${resultados.mezclaSonido}</td>
+    </tr>
+    <tr>
+      <td>Efectos Visuales</td>
+      <td>${resultados.visualEffects}</td>
+    </tr>
+    <tr>
+      <td>Cortometraje de Acción</td>
+      <td>${resultados.actionShortfilm}</td>
+    </tr>
+  </tbody>
+</table>`;
   }, 1000);
 });
 
