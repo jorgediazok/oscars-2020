@@ -52,8 +52,27 @@ h3 {
 }
 
 .table {
+  table-layout: fixed;
   margin: auto;
-  width: 50% !important;
+  width: 60% !important;
   margin-top: 50px;
   text-align: center;
+  border: 2px solid #e74c4c;
+  box-shadow: 5px 5px 15px #e74c4c;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #777;
+}
+
+.banner-2 {
+  padding: 60px;
+  margin-left: 450px;
+}
+
+.mensaje-final {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #777;
 }

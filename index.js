@@ -254,9 +254,9 @@ myForm.addEventListener('submit', event => {
   console.log(resultados);
   setTimeout(() => {
     document.getElementById('header').innerHTML = '';
-    document.getElementById(
-      'header'
-    ).innerHTML = `Buenísimo ${resultados.enviarData} ,acá te dejo tus elegidos para que los imprimas y chequees cómo te fue el 9 de febrero. Suerte! 
+    document.getElementById('header').innerHTML = `<div class="col mb-5">
+    <img src="imgs/oscarsbanner-2.png" alt="banner" class="banner-2"/>
+  </div><p class="mensaje-final">Buenísimo ${resultados.enviarData} ,acá te dejo tus elegidos para que los imprimas y chequees cómo te fue el 9 de febrero. Suerte!</p> 
     <br/>
     <br/>
     <table class="table table-bordered">
@@ -360,12 +360,8 @@ myForm.addEventListener('submit', event => {
       <td>${resultados.actionShortfilm}</td>
     </tr>
   </tbody>
-</table>`;
+</table>
+<input type="button" value="Print this page" onClick="window.print()">
+`;
   }, 1000);
 });
-
-//INVENTAR RESULTADOS QUIEN GANO
-
-//COMPARAR RESULTADO CON PREDICCIÓN
-
-//DEVOLVER RESULTADOS (ARMAR UNA TABLA CON PUNTOS)
