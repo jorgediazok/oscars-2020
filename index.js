@@ -256,7 +256,7 @@ myForm.addEventListener('submit', event => {
     document.getElementById('header').innerHTML = '';
     document.getElementById(
       'header'
-    ).innerHTML = `Me gusta la chota, ${resultados.enviarData}`;
+    ).innerHTML = `Buenísimo, ${resultados.enviarData} acá te dejo tus elegidos para que los imprimas y chequees cómo te fue el 9 de febrero. Suerte!`;
   }, 1000);
 });
 
