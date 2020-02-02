@@ -227,11 +227,37 @@ myForm.addEventListener('submit', event => {
   const formData = new FormData(myForm);
   const resultados = {
     mejorPelicula: formData.getAll('mejorPelicula')[0],
-    mejorDirector: formData.getAll('mejorDirector')[0]
+    mejorDirector: formData.getAll('mejorDirector')[0],
+    mejorActriz: formData.getAll('mejorActriz')[0],
+    mejorActor: formData.getAll('mejorActor')[0],
+    mejorActorReparto: formData.getAll('mejorActorReparto')[0],
+    mejorActrizReparto: formData.getAll('mejorActrizReparto')[0],
+    mejorFotografia: formData.getAll('mejorFotografia')[0],
+    peliculaExtranjera: formData.getAll('peliculaExtranjera')[0],
+    animation: formData.getAll('animation')[0],
+    animationShort: formData.getAll('animationShort')[0],
+    guion: formData.getAll('guion')[0],
+    guionAdaptado: formData.getAll('guionAdaptado')[0],
+    cancionOriginal: formData.getAll('cancionOriginal')[0],
+    bandaSonora: formData.getAll('bandaSonora')[0],
+    mejorDocumental: formData.getAll('mejorDocumental')[0],
+    documentalCorto: formData.getAll('documentalCorto')[0],
+    maquillaje: formData.getAll('maquillaje')[0],
+    productionDesign: formData.getAll('productionDesign')[0],
+    edicion: formData.getAll('edicion')[0],
+    edicionSonido: formData.getAll('edicionSonido')[0],
+    mezclaSonido: formData.getAll('mezclaSonido')[0],
+    visualEffects: formData.getAll('visualEffects')[0],
+    actionShortfilm: formData.getAll('actionShortfilm')[0],
+    enviarData: formData.getAll('enviarData')[0]
   };
+  console.log(resultados);
   setTimeout(() => {
-    document.getElementById('formulario').innerHTML = '<p>prueba</p>';
-  }, 2000);
+    document.getElementById('header').innerHTML = '';
+    document.getElementById(
+      'header'
+    ).innerHTML = `Me gusta la chota, ${resultados.enviarData}`;
+  }, 1000);
 });
 
 //INVENTAR RESULTADOS QUIEN GANO
