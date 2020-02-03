@@ -23,11 +23,11 @@ h3 {
 }
 
 #header img {
-  margin-top: -50px;
+  margin-top: 0px;
 }
 
 #header .card {
-  height: 350px;
+  height: 400px;
   border-radius: 0;
   box-shadow: 5px 5px 15px #e74c4c;
   transition: all 0.2s ease-in;
@@ -66,7 +66,7 @@ h3 {
 
 .banner-2 {
   padding: 50px;
-  margin-left: 300px;
+  margin-left: 460px;
 }
 
 .mensaje-final {
@@ -77,6 +77,12 @@ h3 {
   color: #777;
 }
 
+@media (max-width: 480px) {
+  #header {
+    background-color: black;
+  }
+}
+
 .botoncito {
-  margin-left: 650px;
+  margin-left: 630px;
 }

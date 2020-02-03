@@ -256,7 +256,7 @@ myForm.addEventListener('submit', event => {
     document.getElementById('header').innerHTML = '';
     document.getElementById('header').innerHTML = `<div class="col mb-4">
     <img src="imgs/oscarsbanner-2.png" alt="banner" class="banner-2"/>
-  </div><p class="mensaje-final">Buenísimo ${resultados.enviarData},acá están tus elegidos para que los imprimas y chequees cómo te fue el 9 de febrero. Suerte!</p> 
+  </div><p class="mensaje-final">Buenísimo ${resultados.enviarData},acá están tus elegidos para que los imprimas y chequees cómo te fue el 9 de febrero! :)</p> 
     <br/>
     <div class="botoncito">
     <input type="button" value="Imprimir" onClick="window.print()" class="btn btn-dark">
