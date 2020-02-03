@@ -54,7 +54,7 @@ h3 {
 .table {
   table-layout: fixed;
   margin: auto;
-  width: 60% !important;
+  width: 65% !important;
   margin-top: 50px;
   text-align: center;
   border: 2px solid #e74c4c;
@@ -65,8 +65,8 @@ h3 {
 }
 
 .banner-2 {
-  padding: 60px;
-  margin-left: 450px;
+  padding: 50px;
+  margin-left: 300px;
 }
 
 .mensaje-final {
@@ -75,4 +75,8 @@ h3 {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   color: #777;
+}
+
+.botoncito {
+  margin-left: 650px;
 }
