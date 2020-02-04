@@ -26,7 +26,8 @@ h5 {
 }
 
 #header .card-body {
-  padding: 20px;
+  padding: 25px;
+  text-align: center;
 }
 
 #header .card:hover {
@@ -37,7 +38,7 @@ h5 {
   box-shadow: 5px 5px 10px #9e9e9e;
 }
 
-#header .card:hover h3 {
+#header .card:hover h5 {
   color: white;
 }
 
