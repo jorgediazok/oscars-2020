@@ -70,4 +70,17 @@ h5 {
 
 .botoncito {
   margin-left: 100px;
+  margin-left: 35px;
+  margin-top: 20px;
+}
+
+.social {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.fa {
+  color: #333;
+  padding: 10px;
 }
