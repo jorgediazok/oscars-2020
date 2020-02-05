@@ -258,16 +258,10 @@ myForm.addEventListener('submit', event => {
       'header'
     ).innerHTML = `<p class="mensaje-final">Buenísimo ${resultados.enviarData}, acá están tus elegidos para que los imprimas y chequees cómo te fue el 9 de febrero! :)</p> 
     <br/>
-    <div class="botoncito2" style="margin-left: 42%">
+    <div class="botoncito2" style="margin-left: 47%">
     <input type="button" value="Imprimir" onClick="window.print()" class="btn btn-dark">
-    </div>
-    <div class="social" style="margin-left: 38%"  >
-    <a href="whatsapp://send?text=http://ole.com.ar" data-text="wsp" data-action="share/whatsapp/share" style="boder:none; margin: 10px 0; font-size: 24px;" <i class="fa fa-whatsapp" style="font-size:30px"></i></a>
-    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),'facebook-share-dialog','width=626,height=436');return false;" style="font-size:30px"><i class="fa fa-facebook-square"></i></a>
-    <a href='http://twitter.com/share?url=$url' style="font-size:30px"><i class="fa fa-twitter"></i></a></div>
-
-    
-    <div class="col-md-8 container" style="line-height: 1.3">
+    </div>  
+    <div class="col-md-8 container" style="line-height: 1.1">
     <table class="table table-bordered">
   <thead>
     <tr>
