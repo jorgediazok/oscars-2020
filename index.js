@@ -365,6 +365,8 @@ myForm.addEventListener('submit', event => {
   </tbody>
 </table>
 </div>
+
 `;
-  }, 1000);
+  }, 50);
+  parent.scrollTo(0, 0);
 });
