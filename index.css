@@ -45,7 +45,7 @@ h5 {
 .table {
   table-layout: fixed;
   margin: auto;
-  width: 65% !important;
+  width: 65%;
   margin-top: 50px;
   text-align: center;
   border: 2px solid #e74c4c;
@@ -68,10 +68,9 @@ h5 {
   color: #777;
 }
 
-.botoncito {
-  margin-left: 100px;
-  margin-left: 35px;
-  margin-top: 20px;
+.botoncito1 {
+  margin-left: 50px;
+  margin-top: 10px;
 }
 
 .social {
