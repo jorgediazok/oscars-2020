@@ -256,10 +256,10 @@ myForm.addEventListener('submit', event => {
     document.getElementById('header').innerHTML = '';
     document.getElementById(
       'header'
-    ).innerHTML = `<p class="mensaje-final">Buenísimo ${resultados.enviarData}, acá están tus elegidos para que los imprimas y chequees cómo te fue el 9 de febrero! :)</p> 
+    ).innerHTML = `<p class="mensaje-final">Buenísimo <b>${resultados.enviarData}</b>, acá están tus elegidos para que los imprimas y chequees cómo te fue el 9 de febrero! :)</p> 
     <br/>
-    <div class="botoncito2" style="margin-left: 47%">
-    <input type="button" value="Imprimir" onClick="window.print()" class="btn btn-dark">
+    <div class="botoncito2" style="margin-left: 44%">
+    <input type="button" value="Imprimir/BajarPDF" onClick="window.print()" class="btn btn-dark">
     </div>  
     <div class="col-md-8 container" style="line-height: 1.1">
     <table class="table table-bordered">
