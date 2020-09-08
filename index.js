@@ -1,3 +1,4 @@
+// @ts-nocheck
 const mejorPelicula = [
   'Ford v Ferrari',
   'The Irishman',
