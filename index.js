@@ -1,4 +1,3 @@
-//RASTREAR DATOS
 const mejorPelicula = [
   'Ford v Ferrari',
   'The Irishman',
@@ -8,7 +7,7 @@ const mejorPelicula = [
   'Marriage Story',
   '1917',
   'Once Upon a Time in Hollywood',
-  'Parasite'
+  'Parasite',
 ];
 
 const mejorDirector = [
@@ -20,7 +19,7 @@ const mejorDirector = [
 
   'Quentin Tarantino (Once Upon a Time in Hollywood)',
 
-  'Bong Joon Ho (Parasite)'
+  'Bong Joon Ho (Parasite)',
 ];
 
 const mejorActriz = [
@@ -32,7 +31,7 @@ const mejorActriz = [
 
   'Charlize Theron (Bombshell)',
 
-  'Renée Zellweger (Judy)'
+  'Renée Zellweger (Judy)',
 ];
 
 const mejorActor = [
@@ -44,7 +43,7 @@ const mejorActor = [
 
   'Joaquin Phoenix (Joker)',
 
-  'Jonathan Pryce (The Two Popes)'
+  'Jonathan Pryce (The Two Popes)',
 ];
 
 const mejorActorReparto = [
@@ -56,7 +55,7 @@ const mejorActorReparto = [
 
   'Tom Hanks (A Beautiful Day in the Neighborhood)',
 
-  'Anthony Hopkins (The Two Popes)'
+  'Anthony Hopkins (The Two Popes)',
 ];
 
 const mejorActrizReparto = [
@@ -68,7 +67,7 @@ const mejorActrizReparto = [
 
   'Margot Robbie (Bombshell)',
 
-  'Florence Pugh (Little Women)'
+  'Florence Pugh (Little Women)',
 ];
 
 const mejorFotografia = [
@@ -80,7 +79,7 @@ const mejorFotografia = [
 
   'The Lighthouse',
 
-  'Once Upon a Time in Hollywood'
+  'Once Upon a Time in Hollywood',
 ];
 
 const peliculaExtranjera = [
@@ -92,7 +91,7 @@ const peliculaExtranjera = [
 
   'Honeyland (Macedonia)',
 
-  'Les Miserables (Francia)'
+  'Les Miserables (Francia)',
 ];
 
 const animation = [
@@ -104,7 +103,7 @@ const animation = [
 
   'Missing Link',
 
-  'Toy Story 4'
+  'Toy Story 4',
 ];
 
 const animationShort = [
@@ -112,7 +111,7 @@ const animationShort = [
   'Hair Love',
   'Kitbull',
   'Memorable',
-  'Sister'
+  'Sister',
 ];
 
 const guion = [
@@ -120,7 +119,7 @@ const guion = [
   'Once Upon a Time in Hollywood',
   'Parasite',
   'Knives Out',
-  '1917'
+  '1917',
 ];
 
 const guionAdaptado = [
@@ -128,7 +127,7 @@ const guionAdaptado = [
   'Joker',
   'Little Women',
   'The Two Popes',
-  'Jojo Rabbit'
+  'Jojo Rabbit',
 ];
 
 const cancionOriginal = [
@@ -136,7 +135,7 @@ const cancionOriginal = [
   'Into the unknown',
   'Stand Up',
   '(I am gonna)Love me again',
-  'I cant let you throw yourself'
+  'I cant let you throw yourself',
 ];
 
 const bandaSonora = [
@@ -144,7 +143,7 @@ const bandaSonora = [
   'Joker',
   'Little Women',
   'Marriage Story',
-  'Starwars: The Rise of Skywalker'
+  'Starwars: The Rise of Skywalker',
 ];
 
 const mejorDocumental = [
@@ -152,7 +151,7 @@ const mejorDocumental = [
   'The edge of democracy',
   'Honeyland',
   'For Sama',
-  'The Cave'
+  'The Cave',
 ];
 
 const documentalCorto = [
@@ -160,7 +159,7 @@ const documentalCorto = [
   'Live overtakes me',
   'St Louis Superman',
   'Walk Run Cha-Cha',
-  'Learning to Skateboard in a Warzone'
+  'Learning to Skateboard in a Warzone',
 ];
 
 const maquillaje = [
@@ -168,7 +167,7 @@ const maquillaje = [
   'Bombshell',
   'Judy',
   '1917',
-  'Maleficent: Mistress or Evil'
+  'Maleficent: Mistress or Evil',
 ];
 
 const productionDesign = [
@@ -176,7 +175,7 @@ const productionDesign = [
   '1917',
   'The Irishman',
   'Jojo Rabbit',
-  'Once upon a time in Hollywood'
+  'Once upon a time in Hollywood',
 ];
 
 const edicion = [
@@ -184,7 +183,7 @@ const edicion = [
   'Parasite',
   'Joker',
   'Jojo Rabbit',
-  'Ford v Ferrari'
+  'Ford v Ferrari',
 ];
 
 const edicionSonido = [
@@ -192,7 +191,7 @@ const edicionSonido = [
   'Joker',
   'Ford v Ferrari',
   'Star Wars: The Rise of Skywalker',
-  'Once upon a time in Hollywood'
+  'Once upon a time in Hollywood',
 ];
 
 const mezclaSonido = [
@@ -200,7 +199,7 @@ const mezclaSonido = [
   'Joker',
   'Ford v Ferrari',
   'Once upon a time in Hollywood',
-  'Ad Astra'
+  'Ad Astra',
 ];
 
 const visualEffects = [
@@ -208,7 +207,7 @@ const visualEffects = [
   'The Lion King',
   '1917',
   'The Irishman',
-  'Star Wars: The Rise of Skywalker'
+  'Star Wars: The Rise of Skywalker',
 ];
 
 const actionShortfilm = [
@@ -216,14 +215,16 @@ const actionShortfilm = [
   'Nefta Football Club',
   'The Neighbors Window',
   'Saria',
-  'A sister'
+  'A sister',
 ];
 
 //ENVIAR DATOS/YO LOS OBTENGO COMO ADMIN
 
 const myForm = document.getElementById('formulario');
-myForm.addEventListener('submit', event => {
+
+myForm.addEventListener('submit', (event) => {
   event.preventDefault();
+  // @ts-ignore
   const formData = new FormData(myForm);
   const resultados = {
     mejorPelicula: formData.getAll('mejorPelicula')[0],
@@ -249,17 +250,17 @@ myForm.addEventListener('submit', event => {
     mezclaSonido: formData.getAll('mezclaSonido')[0],
     visualEffects: formData.getAll('visualEffects')[0],
     actionShortfilm: formData.getAll('actionShortfilm')[0],
-    enviarData: formData.getAll('enviarData')[0]
+    enviarData: formData.getAll('enviarData')[0],
   };
-  console.log(resultados);
   setTimeout(() => {
     document.getElementById('header').innerHTML = '';
     document.getElementById(
       'header'
     ).innerHTML = `<p class="mensaje-final">Buenísimo <b>${resultados.enviarData}</b>, acá están tus elegidos para que los imprimas y chequees cómo te fue el 9 de febrero! :)</p> 
     <br/>
-    <div class="botoncito2" style="margin-left: 44%">
-    <input type="button" value="Imprimir/BajarPDF" onClick="window.print()" class="btn btn-dark">
+    <div class="botoncitos">
+    <input type="button" value="Imprimir/BajarPDF" onClick="window.print()" class="btn btn-dark" style="margin: 10px">
+    <input type="button" value="Jugá Otra Vez" onClick="window.location.reload();" class="btn btn-dark" style="margin: 10px">
     </div>  
     <div class="col-md-8 container" style="line-height: 1.1">
     <table class="table table-bordered">
@@ -370,3 +371,14 @@ myForm.addEventListener('submit', event => {
   }, 50);
   parent.scrollTo(0, 0);
 });
+
+//Toastr
+const botoncito = document
+  .getElementById('botoncito')
+  .addEventListener('click', function () {
+    new Toast(
+      'Thanks for playing. Good Luck!',
+      Toast.TYPE_DONE,
+      Toast.TIME_NORMAL
+    );
+  });

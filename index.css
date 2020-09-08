@@ -74,3 +74,9 @@ h5 {
   justify-content: center;
   margin-top: 30px;
 }
+
+.botoncitos {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
