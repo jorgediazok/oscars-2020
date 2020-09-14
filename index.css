@@ -60,6 +60,12 @@ h5 {
   margin-left: 460px;
 }
 
+.mensaje-final-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .mensaje-final {
   text-align: center;
   font-size: 20px;

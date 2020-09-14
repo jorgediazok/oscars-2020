@@ -257,14 +257,14 @@ myForm.addEventListener('submit', (event) => {
     document.getElementById('header').innerHTML = '';
 
     new Toast(
-      'Thanks for playing. Good Luck!',
+      'Gracias por jugar, buena suerte!',
       Toast.TYPE_DONE,
       Toast.TIME_NORMAL
     );
 
     document.getElementById(
       'header'
-    ).innerHTML = `<p class="mensaje-final">Buenísimo <b>${resultados.enviarData}</b>, acá están tus elegidos para que los imprimas y chequees cómo te fue el 9 de febrero! :)</p> 
+    ).innerHTML = `<div class="mensaje-final-container"><p class="mensaje-final">Buenísimo <b>${resultados.enviarData}</b>, acá están tus elegidos para que los imprimas y chequees cómo te fue el 9 de febrero! :)</p></div> 
     <br/>
     <div class="botoncitos">
     <input type="button" value="Imprimir/BajarPDF" onClick="window.print()" class="btn btn-dark" style="margin: 10px">
