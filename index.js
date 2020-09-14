@@ -255,6 +255,13 @@ myForm.addEventListener('submit', (event) => {
   };
   setTimeout(() => {
     document.getElementById('header').innerHTML = '';
+
+    new Toast(
+      'Thanks for playing. Good Luck!',
+      Toast.TYPE_DONE,
+      Toast.TIME_NORMAL
+    );
+
     document.getElementById(
       'header'
     ).innerHTML = `<p class="mensaje-final">Buenísimo <b>${resultados.enviarData}</b>, acá están tus elegidos para que los imprimas y chequees cómo te fue el 9 de febrero! :)</p> 
@@ -374,12 +381,3 @@ myForm.addEventListener('submit', (event) => {
 });
 
 //Toastr
-const botoncito = document
-  .getElementById('botoncito')
-  .addEventListener('click', function () {
-    new Toast(
-      'Thanks for playing. Good Luck!',
-      Toast.TYPE_DONE,
-      Toast.TIME_NORMAL
-    );
-  });
