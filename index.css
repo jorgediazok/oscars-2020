@@ -18,6 +18,14 @@ h5 {
   text-align: center;
 }
 
+input {
+  cursor: pointer;
+}
+
+label {
+  cursor: pointer;
+}
+
 #header .card {
   box-shadow: 5px 5px 15px #e74c4c;
   transition: all 0.2s ease-in;
@@ -28,6 +36,7 @@ h5 {
 #header .card-body {
   padding: 25px;
   text-align: center;
+  cursor: pointer;
 }
 
 #header .card:hover {
